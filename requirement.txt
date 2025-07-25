@@ -1,0 +1,21 @@
+# Core dependencies
+pandas
+numpy
+torch
+transformers
+sentence-transformers
+tqdm
+python-dotenv
+pyyaml
+
+# Google AI
+google-generativeai
+
+# Async support
+aiohttp
+asyncio
+
+# Jupyter support
+jupyter
+notebook
+ipykernel
