@@ -28,9 +28,9 @@ Typical RAG systems over-fetch large chunks and later pay for them with expensiv
 3. **Sentence‑level scoring**  
    Split candidate chunks into sentences and score each with a hybrid objective:
 
-   \\[
-   \	ext{score} = \\lambda \\cdot \	ext{semantic\_similarity} + (1 - \\lambda) \\cdot \	ext{entity\_overlap}
-   \\]
+   \[
+   \text{score} = \lambda \cdot \text{semantic\_similarity} + (1 - \lambda) \cdot \text{entity\_overlap}
+   \]
 
    (optionally add BM25 / TF‑IDF / cross‑encoder reranker terms).
 
@@ -42,3 +42,4 @@ Typical RAG systems over-fetch large chunks and later pay for them with expensiv
 
 6. **Multi‑hop‑aware metrics**  
    Report **one_found** (≥1 gold doc in top‑K) and **all_found** (all gold docs in top‑K) **plus token usage**, exposing the true recall–cost curve your production system will face.
+
