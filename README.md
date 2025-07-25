@@ -1,6 +1,4 @@
-## Introduction
+## Pareto-RAG
 
-**Pareto‑RAG** is a sentence–entity hybrid retrieval strategy that preserves **high recall under a strict token budget**. It separates (i) high‑recall, 
-Inspired by https://arxiv.org/abs/2502.08178?utm_source=chatgpt.com
-The repo is the experiment of ParetoRAG on HotpotQA (first 300 questions on validation dataset)
-
+**Pareto‑RAG** is a sentence–entity hybrid retrieval strategy designed to maintain **high recall under a strict token budget**.  
+Inspired by the research presented in [Pareto RAG: Selective Retrieval for Efficient Question Answering](https://arxiv.org/abs/2502.08178), this repository serves as an **experimental implementation of Pareto‑RAG on the HotpotQA dataset** (using the first 300 questions from the validation set).
